@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    border-top: 20px solid #d1b432;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+h1 {
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+p.about {
+    width: 650px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    line-height: 2;
+    padding: 10px;
+}
+
+div.socials {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a{
+    color: #d1b432;
+}
+
+div.blog {
+    margin-top: 40px;
+}
+
+div.blog-post {
+    border-top: 1px solid grey;
+    max-width: 700px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
