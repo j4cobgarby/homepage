@@ -34,21 +34,22 @@
             working on. Enjoy!
         </p>
         <div class="blog">
-            <div class="blog-post">
-                <h2>My First Post</h2>
-                <h4>Fri 11 Mar 2022</h4>
-                <p>
-                    Hello everyone, welcome to my blog. This is my first post.
-                </p>
-            </div>
 
-            <div class="blog-post">
+            {% for file_name in file_list %}
+                <div class="blog-post">
+                    <h2>{{file_name[0].split(".html")[0]}}</h2>
+                    <h4>{{file_name[1]}}</h4>
+                    {% include "posts/" + file_name[0] %}
+                </div>
+            {% endfor %}
+
+            <!-- <div class="blog-post">
                 <h2>My First Post</h2>
                 <h4>Fri 11 Mar 2022</h4>
                 <p>
                     Hello everyone, welcome to my blog. This is my first post.
                 </p>
-            </div>
+            </div> -->
         </div>
     </body>
 </html>
