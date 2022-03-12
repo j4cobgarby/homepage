@@ -17,7 +17,8 @@ h1 {
 }
 
 p.about {
-    width: 650px;
+    width: 60%;
+    max-width: 650px;
     display: block;
     margin: auto;
     text-align: justify;
@@ -46,4 +47,8 @@ div.blog-post {
     margin: auto;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+div.blog-post > p {
+    text-align: justify;
 }
