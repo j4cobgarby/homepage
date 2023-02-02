@@ -23,5 +23,5 @@ jobs:
       with:
         python-version: '3.9'
         cache: 'pip'
-    - run: pip install jinja
+    - run: pip install -r requirements.txt
     - run: python3 gen.py
